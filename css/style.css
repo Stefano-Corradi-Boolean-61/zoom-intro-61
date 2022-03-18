@@ -1,0 +1,136 @@
+
+/*
+    HEADER
+*/
+.chevron-box{
+    padding: 7px 10px;
+    background-color: #E8E6ED;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+.search{
+  position: relative;
+}
+  
+.search i{
+ position: absolute;
+ top: 8px;
+ left: 6px;
+}
+  
+.search input{
+    background-color: #E8E6ED;
+    border-radius: 5px;
+    padding: 7px 10px 7px 26px;
+    color: grey;
+    border: 1px solid #E8E6ED;
+}
+  
+.nav-left .fa-solid{
+    color: #B1B0B3;
+}
+
+.nav-center{
+    width: 40%;
+}
+
+.nav-center ul{
+    justify-content: space-around;
+    text-align: center;
+}
+
+.nav-center ul .fa-regular,
+.nav-center ul .fa-solid{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.nav-center li.active{
+    color: #0D71EA;
+}
+
+.nav-right .account{
+    padding: 10px 10px;
+    background-color: #53AE98;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+/*
+    MAIN
+*/
+
+main{
+    position: relative;
+    height: calc(100vh - 100px);
+   
+}
+main .setting{
+    position: absolute;
+    top: 15px;
+    right: 23px;
+}
+
+.content-left{
+    flex-basis: 25%;
+}
+
+.content-right{
+    flex-basis: 40%;
+}
+
+
+
+.content-left,
+.content-right {
+    height: 50%;
+}
+
+.content-left{
+    align-items:stretch;
+}
+
+.content-left .item{
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.content-left .btn{
+    font-size: 45px;
+    background-color: #1072EB;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.content-left .btn.orange{
+    background-color: orange;
+}
+
+.content-right .box{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.content-right .box .top{
+    color: white;
+    /* height: 25%; */
+    text-align: center;
+    padding: 10px;
+    background-image: url(../img/sfondo.png);
+    background-size: cover;
+}
+
+.content-right .box .bottom{
+    height: 72%;
+}
+
+  
